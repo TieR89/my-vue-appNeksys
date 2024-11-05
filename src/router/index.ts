@@ -6,7 +6,7 @@ const EntityCreateView = () => import('../views/EntityCreateView.vue')
 const EntityEditView = () => import('../views/EntityEditView.vue')
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory('/my-vue-appNeksys/'),
   routes: [
     {
       path: '/',
